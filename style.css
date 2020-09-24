@@ -1,0 +1,204 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background: #ebebeb;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #F3722C;
+    border: none;
+    padding: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #43AA8B;
+    width: 100vw;
+    height: 50vh;
+    margin-right: 15vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F94144;
+    width: 100vw;
+    height: 50vh;
+    margin-right: 5vw;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
+
+.contentItem {
+    margin: 0%;
+    padding: 5vw;
+}
+
+
+
+.navbarLeft {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border: none;
+    padding: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+
+.navbarRight {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    border: none;
+    padding: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.navbarItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    width: 13vw;
+}
+
+button {
+    transition: 500ms ease;
+    background: none;
+    font: inherit;
+    font-size: 7.5vh;
+    color: black;
+    padding: none;
+    margin: 50px auto;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    transition: 500ms ease;
+    transform: scale(1.1);
+    outline: none;
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 2.5vh;
+}
+
+i {
+    font-size:3vh;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+
+  #myBtn {
+    display: flex; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #F3722C; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
