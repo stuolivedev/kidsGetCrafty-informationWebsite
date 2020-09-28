@@ -1,8 +1,8 @@
 $( document ).ready(function() {
   $('#aboutBar').hide();
   $('#pricesBar').hide();
-  $('#contactBar').show();
-  $('#galleryBar').hide();
+  $('#contactBar').hide();
+  $('#galleryBar').show();
 });
 
 $('#about').click(function(){
@@ -25,6 +25,14 @@ $('#contact').click(function(){
   $('#contactBar').show();
   $('#galleryBar').hide();
 })
+
+$('#gallery').click(function(){
+  $('#aboutBar').hide();
+  $('#pricesBar').hide();
+  $('#contactBar').hide();
+  $('#galleryBar').show();
+})
+
 
 
 

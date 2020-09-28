@@ -21,12 +21,24 @@
 
   <div class="container-fluid">
 
+<!--Navbar-->
     <div class="row navBar">
-        <div class="item col-xs-6">
+        <div class="item col-sm-5">
           <h1 style="font-size: 60px;">Kids Get Crafty</h1>
         </div>
-    </div>
 
+        <div class="navContact col-sm-3">
+          <h1>Phone: 07707896620</h1>
+        </div>
+
+        <div class="navContact col-sm-3">
+          <h1>kidsgetcrafty@gmail.com</h1>
+        </div>
+
+    </div>
+<!--Navbar end-->
+
+<!--Buttonbar-->
     <div class="row">
         <div class="buttonBar col-sm-10">
           <button class="button items" id="about">About</button>
@@ -36,6 +48,7 @@
         </div>
     </div>
 
+    <!--Buttonbar end-->
     <div class="row padding"><!--Empty space--></div>
 
     <!--Content Bar-->
@@ -56,6 +69,7 @@
           </div>
         </div>
 
+    <!--Content Bar end-->
 
 
 <!--Prices Bar-->
@@ -63,44 +77,44 @@
   <div class="pricesBar col-sm-10">
     
     <div class="col-sm-4 price1" style="text-align: center;">
-      <h1>AFTER SCHOOL</h1><!--center this-->
+      <h1 style="font-weight: bolder;">AFTER SCHOOL</h1><!--center this-->
       <h2>Monday to Friday (3pm to 7pm)</h2>
       <h2>All ages</h2>
       <h2 >£20 for first child</h2>
       <h2>£20 flat rate for each additional hour</h2>
-      <h3>*Each additional child will receive 50% off</h3>
-      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+      <h3 style="font-style: italic;">*Each additional child will receive 50% off</h3>
+      <h3 style="font-style: italic;">*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
     </div>
 
     <div class="col-sm-4 price2" style="text-align: center;">
-      <h1>PRE SCHOOL FRIDAYS</h1> <!--center this-->
+      <h1 style="font-weight: bolder;">PRE SCHOOL FRIDAYS</h1> <!--center this-->
       <h2>9am to 3pm</h2>
       <h2>2.5 - 5 years old</h2>
       <h2>£20 for first child</h2>
       <h2>£20 flat rate for each additional hour</h2>
-      <h3>*Each additional child will receive 50% off</h3>
-      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+      <h3 style="font-style: italic;">*Each additional child will receive 50% off</h3>
+      <h3 style="font-style: italic;">*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
     </div>
 
     <div class="col-sm-4 price3 h-100 d-inline-block" style="text-align: center;">
-      <h1>WEEKENDS</h1> <!--center this-->
+      <h1 style="font-weight: bolder;">WEEKENDS</h1> <!--center this-->
       <h2>9am to 3pm for children</h2>
       <h2>All ages</h2>
       <h2>£20 for first child</h2>
       <h2>£20 flat rate for each additional hour</h2>
-      <h3>*Each additional child will receive 50% off</h3>
-      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+      <h3 style="font-style: italic;">*Each additional child will receive 50% off</h3>
+      <h3 style="font-style: italic;">*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
     </div>
-    
+    <div class="row"></div><!--empty div for space-->
     <div>
-    <h3>Constraints due to Covid-19 - please read</h3>
+    <h3 style="font-weight: bolder;">Constraints due to Covid-19 - please read</h3>
     <h3>All sessions are limited to max 5 children.</h3>
     <h3>We are currently unable to offer our party deals following government guidelines.</h3>
   </div>
-
   </div>
-
   </div>  
+  <!--Pricesbar end-->
+
 
   <!--Contactbar-->
   <div class="row" id="contactBar">
@@ -108,25 +122,46 @@
       
 
   <!--contact form-->
-
       <div class="row" style="text-align: center;">
-        <div class="col-sm-4 col-offset-6 centered">
-          <form action="contact.php" method="post">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="text" name="email" placeholder="Your Email">
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit">Send message!</button>
-            <su
+          <div class="col-sm-12" style="text-align: center;">
+            <form class="form column col-sm-6 col-sm-offset-3" action="https://formspree.io/moqpvdak" method="post">
+              <label class="col-sm-12">
+                <h1>Your email:</h1>
+                <input type="text" name="_replyto">
+              </label>
 
-          </form> 
+              <label class="col-sm-12">
+                <h1>Your name:</h1>
+                <input type="text" name="name">
+              </label>
+
+              <label class="col-sm-12">
+                <h1>Subject:</h1>
+                <input type="text" name="subject">
+              </label>
+
+              <label class="col-sm-12">
+                <h1>Your message:</h1>
+                <textarea class="message" name="message"></textarea>
+              </label>
+              <button class="submit col-sm-12 col-sm-offset-3" type="submit">Submit form!</button>
+            </form> 
+            
         </div>
-
       </div>
+    </div>
+    </div>
 
 <!--contact form end-->
 
-      </div>
+<div id="galleryBar">
+  <div class="aboutBar col-sm-6 col-sm-offset-3">
+    <div class="col-sm-6  col-sm-offset-3">
+    <h1 style="text-align: center;">SECTION CURRENTLY UNDER CONSTRUCTION<i class="fas fa-tools" style="text-align: center;"></i></h1>
+ 
+    </div>
+    </div>
+</div>
 
 <!--final closing div-->
 </div>
