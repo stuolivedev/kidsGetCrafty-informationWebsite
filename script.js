@@ -3,6 +3,11 @@ $( document ).ready(function() {
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').hide();
+
+  $('#about').css('font-size','9vh');
+  $('#prices').css('font-size','6vh');
+  $('#contact').css('font-size','6vh');
+  $('#gallery').css('font-size','6vh');
 });
 
 $('#about').click(function(){
@@ -10,6 +15,11 @@ $('#about').click(function(){
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').hide();
+
+  $('#about').css('font-size','9vh');
+  $('#prices').css('font-size','6vh');
+  $('#contact').css('font-size','6vh');
+  $('#gallery').css('font-size','6vh');
 })
 
 $('#prices').click(function(){
@@ -17,6 +27,11 @@ $('#prices').click(function(){
   $('#pricesBar').show();
   $('#contactBar').hide();
   $('#galleryBar').hide();
+
+  $('#about').css('font-size','6vh');
+  $('#prices').css('font-size','9vh');
+  $('#contact').css('font-size','6vh');
+  $('#gallery').css('font-size','6vh');
 })
 
 $('#contact').click(function(){
@@ -24,6 +39,11 @@ $('#contact').click(function(){
   $('#pricesBar').hide();
   $('#contactBar').show();
   $('#galleryBar').hide();
+
+  $('#about').css('font-size','6vh');
+  $('#prices').css('font-size','6vh');
+  $('#contact').css('font-size','9vh');
+  $('#gallery').css('font-size','6vh');
 })
 
 $('#gallery').click(function(){
@@ -31,9 +51,19 @@ $('#gallery').click(function(){
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').show();
+
+  $('#about').css('font-size','6vh');
+  $('#prices').css('font-size','6vh');
+  $('#contact').css('font-size','6vh');
+  $('#gallery').css('font-size','7vh');
 })
 
 
+//Price offer modal
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 
 
 //Slideshow automatic scroll
