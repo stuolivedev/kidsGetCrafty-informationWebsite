@@ -1,8 +1,8 @@
 $( document ).ready(function() {
-  $('#aboutBar').hide();
+  $('#aboutBar').show();
   $('#pricesBar').hide();
   $('#contactBar').hide();
-  $('#galleryBar').show();
+  $('#galleryBar').hide();
 });
 
 $('#about').click(function(){
