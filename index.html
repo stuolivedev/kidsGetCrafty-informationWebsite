@@ -7,64 +7,129 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e7e540a868.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
+<body>
 
+  <div class="container-fluid">
 
-  <!--NAVBAR-->
-<div class="container">
-  <div class="navbar">
-    <div class="navbarLeft">
-      <h1>Kids Get Crafty</h1>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    <div class="row navBar">
+        <div class="item col-xs-6">
+          <h1 style="font-size: 60px;">Kids Get Crafty</h1>
+        </div>
     </div>
 
-    <div class="navbarRight">
-      <div class="navbarItem">
-      <i class="fas fa-phone"></i>
-      <h2>01234 567 897</h2>
+    <div class="row">
+        <div class="buttonBar col-sm-10">
+          <button class="button items" id="about">About</button>
+          <button class="button" id="prices">Prices</button>
+          <button class="button" id="contact">Contact</a></button>
+          <button class="button" id="gallery">Gallery</button>
+        </div>
+    </div>
+
+    <div class="row padding"><!--Empty space--></div>
+
+    <!--Content Bar-->
+    <div class="row" id="aboutBar">
+        <div class="aboutBar col-sm-10">
+          <h1>Kids Get Crafty offers childrens craft sessions and parties throughout Berkshire and surrounding counties.</h1>
+          <h1>Get the kids in touch with their creative side with activities such as:</h1>
+          <h2>- T-shirt design</h2>
+          <h2>- Button art</h2>
+          <h2>- Canvas design</h2>
+          <h2>- Jewellry making</h2>
+          <h2>- Messy play</h2>
+          <h2>- Collages</h2>
+          <h2>- Glass painting</h2>
+          <h2>- Wooden crafts and much, much more</h2>
+          <h1>Get in touch to book your session now!</h1>
+          <h4>*All sessions will adhere to government reccomend Covid-19 procedures, due to the recent changes some sessions have been limited/ removed</h4>
+          </div>
+        </div>
+
+
+
+<!--Prices Bar-->
+<div class="row" id="pricesBar">
+  <div class="pricesBar col-sm-10">
+    
+    <div class="col-sm-4 price1" style="text-align: center;">
+      <h1>AFTER SCHOOL</h1><!--center this-->
+      <h2>Monday to Friday (3pm to 7pm)</h2>
+      <h2>All ages</h2>
+      <h2 >£20 for first child</h2>
+      <h2>£20 flat rate for each additional hour</h2>
+      <h3>*Each additional child will receive 50% off</h3>
+      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+    </div>
+
+    <div class="col-sm-4 price2" style="text-align: center;">
+      <h1>PRE SCHOOL FRIDAYS</h1> <!--center this-->
+      <h2>9am to 3pm</h2>
+      <h2>2.5 - 5 years old</h2>
+      <h2>£20 for first child</h2>
+      <h2>£20 flat rate for each additional hour</h2>
+      <h3>*Each additional child will receive 50% off</h3>
+      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+    </div>
+
+    <div class="col-sm-4 price3 h-100 d-inline-block" style="text-align: center;">
+      <h1>WEEKENDS</h1> <!--center this-->
+      <h2>9am to 3pm for children</h2>
+      <h2>All ages</h2>
+      <h2>£20 for first child</h2>
+      <h2>£20 flat rate for each additional hour</h2>
+      <h3>*Each additional child will receive 50% off</h3>
+      <h3>*Sessions longer than 1 hour are not reccomended for children 5 and under.</h3>
+    </div>
+    
+    <div>
+    <h3>Constraints due to Covid-19 - please read</h3>
+    <h3>All sessions are limited to max 5 children.</h3>
+    <h3>We are currently unable to offer our party deals following government guidelines.</h3>
+  </div>
+
+  </div>
+
+  </div>  
+
+  <!--Contactbar-->
+  <div class="row" id="contactBar">
+    <div class="pricesBar col-sm-10">
+      
+
+  <!--contact form-->
+
+      <div class="row" style="text-align: center;">
+        <div class="col-sm-4 col-offset-6 centered">
+          <form action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit" name="submit">Send message!</button>
+            <su
+
+          </form> 
+        </div>
+
       </div>
-    </div>
-  </div>
+
+<!--contact form end-->
+
+      </div>
+
+<!--final closing div-->
 </div>
-
-<!--OPTIONS-->
-<div class="row" id="navbar">
-  <button class="button" id="about"><a href="#aboutContent">About</a></button>
-  <button class="button" id="prices"><a href="#pricesContent">Prices</a></button>
-  <button class="button" id="gallery"><a href="#galleryContent">Gallery</a></button>
-
-  <div class="content1" id="aboutContent">
-    <div class="contentItem">
-      <h1>Kids Get Crafty offers childrens craft sessions and parties throughtout Berkshire and surrounding counties. A variety of sessions and activities available such as paintng, more painting and even more paining</h1>
-    </div>
-  </div>
-
-  <div class="content2" id="pricesContent">
-    <div class="contentItem">
-      <h1>Generic prices information</h1>
-    </div>
-  </div>
-
-<div id="galleryContent">
-  <div id="slideshow">
-    <div>
-      <img src="src/1.jpg">
-    </div>
-    <div>
-      <img src="src/2.jpg">
-    </div>
-    <div>
-      <img src="src/3.jpg">
-    </div>
- </div>
-</div>
-
-</div>
-
 
     <script src="script.js"></script>
   </body>
