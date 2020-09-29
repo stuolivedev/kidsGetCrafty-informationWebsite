@@ -1,10 +1,10 @@
 $( document ).ready(function() {
-  $('#aboutBar').hide();
+  $('#homeBar').show();
   $('#pricesBar').hide();
   $('#contactBar').hide();
-  $('#galleryBar').show();
+  $('#galleryBar').hide();
 
-  $('#about').css('font-size','6vh');
+  $('#about').css('font-size','5vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
@@ -16,7 +16,7 @@ $('#about').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','6vh');
+  $('#about').css('font-size','5vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
@@ -29,7 +29,7 @@ $('#prices').click(function(){
   $('#galleryBar').hide();
 
   $('#about').css('font-size','4vh');
-  $('#prices').css('font-size','6vh');
+  $('#prices').css('font-size','5vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
 })
@@ -42,7 +42,7 @@ $('#contact').click(function(){
 
   $('#about').css('font-size','4vh');
   $('#prices').css('font-size','4vh');
-  $('#contact').css('font-size','6vh');
+  $('#contact').css('font-size','5vh');
   $('#gallery').css('font-size','4vh');
 })
 
@@ -55,7 +55,7 @@ $('#gallery').click(function(){
   $('#about').css('font-size','4vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
-  $('#gallery').css('font-size','7vh');
+  $('#gallery').css('font-size','5vh');
 })
 
 

@@ -71,7 +71,7 @@ button {
 
 button:hover {
     transition: 500ms ease;
-    transform: scale(1.1);
+    transform: scale(1.09);
     outline: none;
 }
 
@@ -159,13 +159,14 @@ input {
     -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     font-family: 'Nunito', sans-serif;
+    padding-bottom: 10vh;
 }
 
 .rowImg {
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15vw;
+    padding-left: 10vw;
 }
 
 img {
@@ -173,7 +174,8 @@ img {
 }
 
 .columnImg {
-    flex: 13.33%;
+    flex: 15%;
+    max-width: 25%;
     flex-wrap: wrap;
     padding: 0 4px;
 }
@@ -189,15 +191,22 @@ img {
   }
 
 .columnImg img:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+    .columnImg {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
     .columnImg {
       flex: 100%;
       max-width: 100%;
     }
-  }
 
 i {
     font-size: 15vh;
