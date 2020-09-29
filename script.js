@@ -1,8 +1,8 @@
 $( document ).ready(function() {
   $('#aboutBar').hide();
   $('#pricesBar').hide();
-  $('#contactBar').show();
-  $('#galleryBar').hide();
+  $('#contactBar').hide();
+  $('#galleryBar').show();
 
   $('#about').css('font-size','6vh');
   $('#prices').css('font-size','4vh');
