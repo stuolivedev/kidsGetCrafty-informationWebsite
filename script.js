@@ -4,55 +4,55 @@ $( document ).ready(function() {
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','5vh');
+  $('#home').css('font-size','5vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
 });
 
-$('#about').click(function(){
-  $('#aboutBar').show();
+$('#home').click(function(){
+  $('#homeBar').show();
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','5vh');
+  $('#home').css('font-size','5vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
 })
 
 $('#prices').click(function(){
-  $('#aboutBar').hide();
+  $('#homeBar').hide();
   $('#pricesBar').show();
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','4vh');
+  $('#home').css('font-size','4vh');
   $('#prices').css('font-size','5vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','4vh');
 })
 
 $('#contact').click(function(){
-  $('#aboutBar').hide();
+  $('#homeBar').hide();
   $('#pricesBar').hide();
   $('#contactBar').show();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','4vh');
+  $('#home').css('font-size','4vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','5vh');
   $('#gallery').css('font-size','4vh');
 })
 
 $('#gallery').click(function(){
-  $('#aboutBar').hide();
+  $('#homeBar').hide();
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').show();
 
-  $('#about').css('font-size','4vh');
+  $('#home').css('font-size','4vh');
   $('#prices').css('font-size','4vh');
   $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','5vh');

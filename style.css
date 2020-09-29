@@ -75,7 +75,7 @@ button:hover {
     outline: none;
 }
 
-.aboutBar {
+.homeBar {
     padding-left: 5vw;
     background-color: #f9c80e;
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
