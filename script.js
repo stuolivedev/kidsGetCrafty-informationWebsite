@@ -4,10 +4,10 @@ $( document ).ready(function() {
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','9vh');
-  $('#prices').css('font-size','6vh');
-  $('#contact').css('font-size','6vh');
-  $('#gallery').css('font-size','6vh');
+  $('#about').css('font-size','6vh');
+  $('#prices').css('font-size','4vh');
+  $('#contact').css('font-size','4vh');
+  $('#gallery').css('font-size','4vh');
 });
 
 $('#about').click(function(){
@@ -16,10 +16,10 @@ $('#about').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','9vh');
-  $('#prices').css('font-size','6vh');
-  $('#contact').css('font-size','6vh');
-  $('#gallery').css('font-size','6vh');
+  $('#about').css('font-size','6vh');
+  $('#prices').css('font-size','4vh');
+  $('#contact').css('font-size','4vh');
+  $('#gallery').css('font-size','4vh');
 })
 
 $('#prices').click(function(){
@@ -28,10 +28,10 @@ $('#prices').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','6vh');
-  $('#prices').css('font-size','9vh');
-  $('#contact').css('font-size','6vh');
-  $('#gallery').css('font-size','6vh');
+  $('#about').css('font-size','4vh');
+  $('#prices').css('font-size','6vh');
+  $('#contact').css('font-size','4vh');
+  $('#gallery').css('font-size','4vh');
 })
 
 $('#contact').click(function(){
@@ -40,10 +40,10 @@ $('#contact').click(function(){
   $('#contactBar').show();
   $('#galleryBar').hide();
 
-  $('#about').css('font-size','6vh');
-  $('#prices').css('font-size','6vh');
-  $('#contact').css('font-size','9vh');
-  $('#gallery').css('font-size','6vh');
+  $('#about').css('font-size','4vh');
+  $('#prices').css('font-size','4vh');
+  $('#contact').css('font-size','6vh');
+  $('#gallery').css('font-size','4vh');
 })
 
 $('#gallery').click(function(){
@@ -52,9 +52,9 @@ $('#gallery').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').show();
 
-  $('#about').css('font-size','6vh');
-  $('#prices').css('font-size','6vh');
-  $('#contact').css('font-size','6vh');
+  $('#about').css('font-size','4vh');
+  $('#prices').css('font-size','4vh');
+  $('#contact').css('font-size','4vh');
   $('#gallery').css('font-size','7vh');
 })
 

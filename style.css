@@ -118,7 +118,7 @@ button:hover {
     position: relative;
 }
 .item {
-    padding: 20px;
+    padding: none;
 }
 
 .form {
@@ -150,6 +150,17 @@ input {
     margin-bottom: 3vh;
     margin-top: 3vh;
 }
+
+
+.galleryBar {
+    background-color: #f9c80e;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    font-family: 'Nunito', sans-serif;
+}
+
+
 
 
 i {
