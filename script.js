@@ -1,7 +1,7 @@
 $( document ).ready(function() {
-  $('#aboutBar').show();
+  $('#aboutBar').hide();
   $('#pricesBar').hide();
-  $('#contactBar').hide();
+  $('#contactBar').show();
   $('#galleryBar').hide();
 
   $('#about').css('font-size','6vh');
