@@ -70,8 +70,8 @@ button {
 }
 
 button:hover {
-    transition: 500ms ease;
-    transform: scale(1.09);
+    transition: 300ms ease;
+    color: white;
     outline: none;
 }
 
