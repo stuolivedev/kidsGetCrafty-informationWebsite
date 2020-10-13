@@ -1,13 +1,10 @@
 $( document ).ready(function() {
-  $('#homeBar').show();
-  $('#pricesBar').hide();
+  $('#homeBar').hide();
+  $('#pricesBar').show();
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#home').css('font-size','5vh');
-  $('#prices').css('font-size','4vh');
-  $('#contact').css('font-size','4vh');
-  $('#gallery').css('font-size','4vh');
+
 });
 
 $('#home').click(function(){
@@ -16,10 +13,6 @@ $('#home').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#home').css('font-size','5vh');
-  $('#prices').css('font-size','4vh');
-  $('#contact').css('font-size','4vh');
-  $('#gallery').css('font-size','4vh');
 })
 
 $('#prices').click(function(){
@@ -28,10 +21,6 @@ $('#prices').click(function(){
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
-  $('#home').css('font-size','4vh');
-  $('#prices').css('font-size','5vh');
-  $('#contact').css('font-size','4vh');
-  $('#gallery').css('font-size','4vh');
 })
 
 $('#contact').click(function(){
@@ -40,10 +29,6 @@ $('#contact').click(function(){
   $('#contactBar').show();
   $('#galleryBar').hide();
 
-  $('#home').css('font-size','4vh');
-  $('#prices').css('font-size','4vh');
-  $('#contact').css('font-size','5vh');
-  $('#gallery').css('font-size','4vh');
 })
 
 $('#gallery').click(function(){
@@ -51,11 +36,6 @@ $('#gallery').click(function(){
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').show();
-
-  $('#home').css('font-size','4vh');
-  $('#prices').css('font-size','4vh');
-  $('#contact').css('font-size','4vh');
-  $('#gallery').css('font-size','5vh');
 })
 
 
