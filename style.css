@@ -69,6 +69,12 @@ button {
     outline: none;
 }
 
+@media (max-width: 440px) {
+    .button {
+        font-size: 2rem;
+    }
+}
+
 button:hover {
     transition: 300ms ease;
     color: white;
@@ -213,4 +219,3 @@ i {
 .fas {
     font-size: 4vh;
 }
-
