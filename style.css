@@ -20,6 +20,7 @@ html, body {
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -31,6 +32,7 @@ html, body {
     padding-left: 20vw;
 }
 
+
 .navBar {
     display: flex;
     flex-direction: row;
@@ -40,11 +42,13 @@ html, body {
     background-color: #f9c80e;
     font-family: 'The Girl Next Door', cursive;
     padding-left: 8.5vw;
+    padding-right: 8.5vw;
 
 }
 
 .navContact {
     font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
 
 .buttonBar {
@@ -71,7 +75,7 @@ button {
 
 @media (max-width: 440px) {
     .button {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -100,13 +104,21 @@ button:hover {
     box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
 }
 
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 .pricesBar {
-    max-height: 530px;
+    height: 50%;
+    max-height: 730px;
+    width: 100%;
     padding-left: 5vw;
     background-color: transparent;
     font-family: 'Nunito', sans-serif;
 }
+
+
 
 .price1 {
     background-color: #ffffff;
@@ -124,17 +136,34 @@ button:hover {
 .priceInfo {
     position: relative;
 }
+
+
+
 .item {
     padding: none;
+    text-align: center;
 }
 
 .form {
+    display: flex;
     background-color: white;
-    width: 80%;;
+    width: 80vw;
+    height: auto;
     margin: auto;
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-size: 420px) {
+    .form {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
 }
 
 input {
@@ -219,3 +248,13 @@ i {
 .fas {
     font-size: 4vh;
 }
+
+@media (max-size: 420px) {
+    h1 {
+        font-size: 10vw;
+    }
+}
+
+
+
+

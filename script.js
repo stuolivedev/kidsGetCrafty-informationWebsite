@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-  $('#homeBar').show();
-  $('#pricesBar').hide();
+  $('#homeBar').hide();
+  $('#pricesBar').show();
   $('#contactBar').hide();
   $('#galleryBar').hide();
 
