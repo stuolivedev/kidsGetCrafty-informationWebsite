@@ -1,11 +1,17 @@
+/*old colour schemes
+    background-color: #00BBF9;
+        background-color: #f9c80e;
+            background-color: #d9d9d9;
+    */
+
 html, body {
     font-family: 'Nunito', sans-serif;
-    background-color: #00BBF9;
+    background-color: #F8B229;
 }
 
 
 .container-fluid {
-    background-color: #00BBF9;
+    background-color: #F8B229;
 }
 
 .warning {
@@ -39,7 +45,10 @@ html, body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: #f9c80e;
+    /*background-color: #EA4630;*/
+    background: rgb(20,107,58);
+    background: linear-gradient(90deg, rgba(20,107,58,1) 29%, rgba(234,70,48,1) 100%);
+    color: white;
     font-family: 'The Girl Next Door', cursive;
     padding-left: 8.5vw;
     padding-right: 8.5vw;
@@ -86,6 +95,17 @@ button:hover {
 }
 
 .homeBar {
+    padding-left: 5vw;
+    /*background-color: #f9c80e;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);*/
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutBar {
     padding-left: 5vw;
     background-color: #f9c80e;
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
@@ -203,6 +223,14 @@ input {
 
 img {
     max-width: 25vw;
+}
+
+.bannerImg {
+    max-width: 35vw;
+    margin: 1vw;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
 }
 
 .columnImg {

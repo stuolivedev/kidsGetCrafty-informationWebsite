@@ -1,5 +1,6 @@
 $( document ).ready(function() {
   $('#homeBar').show();
+  $('#aboutBar').hide();
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').hide();
@@ -9,6 +10,16 @@ $( document ).ready(function() {
 
 $('#home').click(function(){
   $('#homeBar').show();
+  $('#aboutBar').hide();
+  $('#pricesBar').hide();
+  $('#contactBar').hide();
+  $('#galleryBar').hide();
+
+})
+
+$('#about').click(function(){
+  $('#homeBar').hide();
+  $('#aboutBar').show();
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').hide();
@@ -17,6 +28,7 @@ $('#home').click(function(){
 
 $('#prices').click(function(){
   $('#homeBar').hide();
+  $('#aboutBar').hide();
   $('#pricesBar').show();
   $('#contactBar').hide();
   $('#galleryBar').hide();
@@ -25,6 +37,7 @@ $('#prices').click(function(){
 
 $('#contact').click(function(){
   $('#homeBar').hide();
+  $('#aboutBar').hide();
   $('#pricesBar').hide();
   $('#contactBar').show();
   $('#galleryBar').hide();
@@ -33,6 +46,7 @@ $('#contact').click(function(){
 
 $('#gallery').click(function(){
   $('#homeBar').hide();
+  $('#aboutBar').hide();
   $('#pricesBar').hide();
   $('#contactBar').hide();
   $('#galleryBar').show();
