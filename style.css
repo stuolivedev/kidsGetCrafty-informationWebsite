@@ -6,12 +6,16 @@
 
 html, body {
     font-family: 'Nunito', sans-serif;
-    background-color: #F8B229;
+    background: rgb(32,159,88);
+    background: linear-gradient(90deg, rgba(32,159,88,1) 29%, rgba(255,103,82,1) 100%);
 }
 
 
 .container-fluid {
-    background-color: #F8B229;
+    height: 100%;
+    background: rgb(32,159,88);
+    background: linear-gradient(90deg, rgba(32,159,88,1) 29%, rgba(255,103,82,1) 100%);
+    padding-bottom: 3vh;
 }
 
 .warning {
@@ -45,9 +49,9 @@ html, body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    /*background-color: #EA4630;*/
-    background: rgb(20,107,58);
-    background: linear-gradient(90deg, rgba(20,107,58,1) 29%, rgba(234,70,48,1) 100%);
+    background-color: #f9c80e;
+    /*background: rgb(20,107,58);
+    background: linear-gradient(90deg, rgba(20,107,58,1) 29%, rgba(234,70,48,1) 100%);*/
     color: white;
     font-family: 'The Girl Next Door', cursive;
     padding-left: 8.5vw;
@@ -231,6 +235,16 @@ img {
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 800px) {
+    .bannerImg {
+        max-width: 80vw;
+        margin: 1vw;
+        -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+        box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    }
 }
 
 .columnImg {
