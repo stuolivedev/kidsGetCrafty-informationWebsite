@@ -6,15 +6,15 @@
 
 html, body {
     font-family: 'Nunito', sans-serif;
-    background: rgb(32,159,88);
-    background: linear-gradient(90deg, #FFC8DD 29%, #BDE0FE 100%);
+    background: #8ddceb;
+    /*background: linear-gradient(1deg, rgba(141,220,235,1) 31%, rgba(1,163,210,1) 100%);*/
 }
 
 
 .container-fluid {
     height: 100%;
-    background: rgb(32,159,88);
-    background: linear-gradient(90deg, #FFC8DD 29%, #BDE0FE 100%);
+    background: #8ddceb;
+    background: linear-gradient(1deg, rgba(141,220,235,1) 31%, rgba(1,163,210,1) 100%);
     padding-bottom: 3vh;
 }
 
@@ -49,10 +49,10 @@ html, body {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: #CDB4DB;
+    background: white;
     /*background: rgb(20,107,58);
     background: linear-gradient(90deg, rgba(20,107,58,1) 29%, rgba(234,70,48,1) 100%);*/
-    color: white;
+    color: #01a3d2;
     font-family: 'The Girl Next Door', cursive;
     padding-left: 8.5vw;
     padding-right: 8.5vw;
@@ -111,7 +111,7 @@ button:hover {
 
 .aboutBar {
     padding-left: 5vw;
-    background-color: #BDE0FE;
+    background-color: #ffda09;
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
