@@ -75,6 +75,18 @@ html, body {
     margin: 1%;
 }
 
+.flyerBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 20%;
+    margin: auto;
+}
+
 button {
     transition: 500ms ease;
     background: none;
@@ -239,7 +251,15 @@ img {
 }
 
 .bannerImg {
-    max-width: 35vw;
+    max-width: 20vw;
+    margin: 1vw;
+    -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
+}
+
+.textImg {
+    max-width: 20vw;
     margin: 1vw;
     -webkit-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 20px 20px 22px 1px rgba(0,0,0,0.75);
