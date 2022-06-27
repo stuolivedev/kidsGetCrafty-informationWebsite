@@ -33,7 +33,10 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: none;
 }
+
+
 
 .column {
     display: flex;
@@ -48,14 +51,14 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     background: white;
     /*background: rgb(20,107,58);
     background: linear-gradient(90deg, rgba(20,107,58,1) 29%, rgba(234,70,48,1) 100%);*/
     color: #01a3d2;
     font-family: 'The Girl Next Door', cursive;
-    padding-left: 8.5vw;
-    padding-right: 8.5vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
 
 }
 
